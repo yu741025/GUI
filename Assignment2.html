@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Courier New;
+    padding: 10px;
+    background:#6E7376
+    ;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: rgb(237,198,195);
+    color:Snow
+    
+    ;
+}
+
+	
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color:rgb(97, 128, 168);
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color:snow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: ;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    background-color: rgb(135,172,200);
+    width: 75%;
+    color:snow;
+    
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: rgb(237,198,195);
+    padding-left: 20px;
+}
+
+/* Fake image */
+
+.fakeimg { 
+
+    background-color:#E9E9E9 ;
+    width: 100%;
+    padding: 20px;
+    color:rgb(84,84,84)
+}<https://scontent-tpe1-1.xx.fbcdn.net/v/t31.0-8/20819655_1762569877099621_1060789510178411191_o.jpg?_nc_cat=107&_nc_ht=scontent-tpe1-1.xx&oh=bf1c8732c724956538d8dc98f2d040ca&oe=5C52DBB8>
+
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Sabrina's home</h1>
+  <p>Welcome to Sabrina's home!</p>
+</div>
+
+<div class="topnav">
+  <a href="#">About me</a>
+  <a href="https://www.facebook.com/profile.php?id=100000398776793">My Facebook</a>
+  <a href="https://www.instagram.com/remerberme1120/">My Instagram</a>
+  <a href="https://www.facebook.com/profile.php?id=100000398776793" style="float:right">Contact me</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>	&nbsp;About me</h2>
+     
+      <div class="fakeimg" style="height:200px;"><img style="float: left;"src="https://scontent-tpe1-1.xx.fbcdn.net/v/t31.0-8/20819655_1762569877099621_1060789510178411191_o.jpg?_nc_cat=107&_nc_ht=scontent-tpe1-1.xx&oh=bf1c8732c724956538d8dc98f2d040ca&oe=5C52DBB8" width="15.0%"height="100%" >&nbsp;&nbsp;Shu-Yu-You<p>&nbsp;&nbsp;Sabrina You</p> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi, I am Sabrina, I major in Statistics, I have Business knwoledge, I am also able to use R, minitab, java, python to solve problems. Word, Access, Power Point, Excel are also very familiar to me.</p></div>
+     
+    </div>
+    <div class="card">
+      <h2>Experience</h2>
+      <h5></h5>
+      <div class="fakeimg" style="height:200px;"><p>Graduated from Kaohsiung Girls' Highschool</p><p>Sudying in National Cheng-Chi University, Statistics department</p></div>
+      <p>To be continued...</p>
+ 
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Contact Me</h2>
+      <div class="fakeimg" style="height:100px;">Phone number:09XXXXXXXX<p>E-mail:105304046@nccu.edu.tw</p></div>
+      
+      <div class="card">
+      <h3>Follow Me</h3>
+      <p><style>video.labnol, img.labnol {max-width:100%; width: 90% !important; height: auto !important;}</style> <img class='labnol' src='https://instagram.fsjc1-3.fna.fbcdn.net/vp/02a9e626f6151f2ba712eab0ec8778d4/5C66BDBF/t51.2885-15/fr/e15/s1080x1080/43553295_2214055062253321_8956454173923080411_n.jpg' width='1080' height='1080' />Credit: @<a href='https://instagram.com/remerberme1120'>The Little Princess</a></p>
+    </div>
+    </div>
+    <div class="card">
+      <h3>Work Collections</h3>
+      <div class="fakeimg"><p>XXXXXX</p></div>
+      <div class="fakeimg"><p>XXXXXX</p></div>
+      <div class="fakeimg"><p>XXXXXX</p></div>
+    </div>
+    
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>
